@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    color:#ffff
+}
+nav .logo img{
+    max-width: 10%;
+    object-fit: contain;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+     margin:0px 20px; 
+    position: fixed;
+    background-color: #222;
+}
+nav .action{
+    display: flex;
+   margin: 10px 20px; 
+    justify-content: space-around;
+}
+nav .action .joinnow{
+    background-color:#e50914;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 500;
+border: none;
+margin: 7px 5px;
+padding: 0px 25px;
+cursor: pointer;
+}
+nav .action .joinnow:hover{
+background-color: #fff;
+color: #222;
+}
+nav .action .signup{
+    margin: 7px 5px;
+    padding: 0px 25px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+nav .action .signup:hover{
+    background-color:#fff;
+    color: #222;
+
+   
+
+}
+.banner{
+    background: linear-gradient(90deg, #8f3030 0, hsla(0, 0%, 9%, .987) 1.75%, hsla(0, 74%, 42%, 0.951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(90, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%),url(netflix2.jpg);
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;
+   max-width:  50%;
+   
+}
+    /* background: linear-gradient(0deg, #181818 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%),url(https://occ-0-3215-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABaJJIdyKMNvEcWhAtI5Xk12MQLY8DLxAkM2k8unVHyRordNL9Jn726cLoEmP_DAn44vwE3_l9dWTpDQTvmzsk6REyj4veXm9bvQ8.jpg?r=e19) */
+.bannercontent{
+    padding:15% 10%;
+}
+.bannercontent .bannertitle h1{
+    font-size: 30px;
+    padding: 10px 0px;
+}
+.bannercontent .bannertitle h3{
+    padding:10px 0px;
+    color:#a3a3a3;
+    
+}
+.bannercontent .bannertitle span{
+    padding: 0px 2px;
+}
+.bannercontent .bannertitle .user1{
+    /* background-color:#fff; */
+    padding: 3px 10px;
+    border: 2px solid #a3a3a3;
+}
+.bannercontent .bannertitle p{
+    max-width:40%;
+    padding: 5px 0px;
+}
+.bannercontent .bannertitle .user{
+    color:#fff;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+    
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster{
+    margin:2% 2%;
+    border-radius: 0.5%;
+}
+.id1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.9rem;
+    padding:0.2%;
+}
+.posters .new img{
+    margin:2px;
+}
